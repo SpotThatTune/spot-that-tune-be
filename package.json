@@ -1,7 +1,7 @@
 {
   "name": "spot-that-tune-be",
   "version": "1.0.0",
-  "description": "",
+  "description": "back end for spot that tune",
   "main": "server.js",
   "scripts": {
     "test": "jest --verbose --runInBand --testLocationInResults --setupFiles dotenv/config",
@@ -26,8 +26,10 @@
     "supertest": "^6.0.1"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "pg": "^8.4.2"
+    "pg": "^8.4.2",
+    "socket.io": "^3.0.1"
   }
 }
