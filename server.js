@@ -13,26 +13,3 @@ process.on('exit', () => {
   pool.end();
 });
 
-// const http = require('http').createServer();
-
-// const io = require('socket.io')(http);
- 
-// let count = 0;
- 
-// io.on('connection', socket => {
-//   socket.emit('UPDATED_COUNT', count);
- 
-//   socket.on('INCREMENT', () => {
-//     count++;
-//     socket.emit('UPDATED_COUNT', count);
-//     socket.broadcast.emit('UPDATED_COUNT', count);
-//   });
- 
-//   socket.on('DECREMENT', () => {
-//     count--;
-//     socket.emit('UPDATED_COUNT', count);
-//     socket.broadcast.emit('UPDATED_COUNT', count);
-//   });
-// });
- 
-// http.listen(7890);
