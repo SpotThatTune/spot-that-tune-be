@@ -1,7 +1,7 @@
 {
   "name": "spot-that-tune-be",
   "version": "1.0.0",
-  "description": "",
+  "description": "back end for spot that tune",
   "main": "server.js",
   "scripts": {
     "test": "jest --verbose --runInBand --testLocationInResults --setupFiles dotenv/config",
@@ -19,15 +19,18 @@
     "@babel/eslint-parser": "^7.12.1",
     "@babel/plugin-syntax-class-properties": "^7.12.1",
     "@types/jest": "^26.0.15",
-    "@types/pg": "^7.14.6",
+    "@types/pg": "^7.14.7",
     "eslint": "^7.13.0",
     "jest": "^26.6.3",
     "nodemon": "^2.0.6",
     "supertest": "^6.0.1"
   },
   "dependencies": {
+    "chance": "^1.1.7",
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "pg": "^8.4.2"
+    "pg": "^8.5.1",
+    "socket.io": "^3.0.1"
   }
 }
